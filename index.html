@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espacio Seguro — Psicología</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/logo.svg" type="logon/x-icon">
+</head>
+
+<body>
+  <video autoplay muted loop id="bg-video">
+    <source src="assets/video/despertar.mp4" type="video/mp4">
+  </video>
+  <header>
+    <img src="logo.svg" alt="Logo Espacio Seguro" class="logo">
+    <h1>Tú Espacio Seguro</h1>
+    <p class="subtitle">Un lugar anónimo para hablar y recibir apoyo</p>    
+
+  </header>
+
+  <main>
+    <section class="chat-container">
+      <div id="chat" class="chat-box">
+        <div class="bot message">
+          Hola — soy tu espacio seguro en pantalla. Cuéntame qué te preocupa.
+        </div>
+      </div>
+
+      <form id="chat-form">
+        <input type="text" id="user-input" placeholder="Escribe aquí..." autocomplete="off">
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <aside class="sidebar">
+      <h2>Recursos</h2>
+      <button id="find-centers">Centros cercanos</button>
+
+      <article>
+        <h3>Ejercicio de respiración</h3>
+        <p>Inhala 4 segundos, mantén 4, exhala 6. Repite 6 veces.</p>
+      </article>
+
+      <article>
+        <h3>Privacidad</h3>
+        <p>Esta web no guarda tus datos. Las conversaciones se quedan en tu dispositivo.</p>
+      </article>
+      <article>
+        <h3>Teléfonos de ayuda</h3>
+        <ul>
+          <li><strong>Emergencias:</strong> 112</li>
+          <li><strong>Teléfono contra el suicidio:</strong> 024</li>
+          <li><strong>Violencia de género:</strong> 016</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Apps de bienestar</h3>
+        <ul>
+          <li><a href="https://intimind.com/" target="_blank">Intimind (Mindfulness)</a></li>
+          <li><a href="https://www.headspace.com/" target="_blank">Headspace</a></li>
+          <li><a href="https://www.sanvello.com/" target="_blank">Sanvello</a></li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Vídeos relajantes</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=2OEL4P1Rz04" target="_blank">Sonidos de naturaleza</a></li>
+          <li><a href="https://www.youtube.com/watch?v=5qap5aO4i9A" target="_blank">Lofi hip hop para relajarse</a></li>
+        </ul>
+      </article>
+    </aside>
+  </main>
+
+  <footer>
+  <div class="social-links">
+    <a href="https://facebook.com" target="_blank"><img src="assets/facebook.svg" alt="Facebook"></a>
+    <a href="https://instagram.com" target="_blank"><img src="assets/instagram.svg" alt="Instagram"></a>
+    <a href="https://linkedin.com" target="_blank"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
+    <a href="https://github.com" target="_blank"><img src="assets/github.svg" alt="GitHub"></a>
+  </div>
+
+  <nav class="footer-links">
+    <a href="aviso-legal.html">Aviso Legal</a> |
+    <a href="privacidad.html">Política de Privacidad</a> |
+    <a href="cookies.html">Política de Cookies</a> |
+    <a href="terminos.html">Términos y Condiciones</a>
+  </nav>
+  <p>&copy; 2025 Espacio Seguro — No sustituye atención profesional. En caso urgente, llama al 112.</p>
+</footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
